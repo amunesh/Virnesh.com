@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     background: #fff;
-    margin: 0px;    /* This will be replaced with 0 ( 0px; )*/
+    margin: 20px;    /* This will be replaced with 0 ( 0px; )*/
     padding: 0;
 }
 
@@ -35,12 +35,33 @@ body {
     font: normal 8pt mono, "Courier New", Courier;
     margin: 0em 5px;    /* This will be replaced with 0 ( 0em; )*/
     padding: 5px;
+	color: #fff
 }
 
 .someclass {
+	
     background: #4C5A64;
     background: linear-gradient(180deg, #6D818F 1%, #404F5A 60%, #2E3940 99%);
     border: #000 solid 1px;
     border-radius: 5px;
     box-sizing: content-box;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4C5A64;
+  color: #FFFFFF;
+  text-align: center;
+}
+.header {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4C5A64;
+  color: #FFFFFF;
+  text-align: center;
+}
+
